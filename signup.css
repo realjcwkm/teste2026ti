@@ -1,0 +1,37 @@
+.forms{
+    padding: 0 64px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    width: 300px;
+}
+
+.inputs input{
+    padding: 4px 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.forms button{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;    
+}
+.cadastrar{
+    border-radius: 4px;
+    color: white;
+    background-color: green;
+}
+.cadastrar:hover{
+    background-color: rgb(7, 189, 7);
+}

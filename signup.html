@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <div class="icons">
+            <img src="imagens/icones/compartilhar.png" alt="Icone compartilhar">
+            <p>Travel Buddy</p>
+        </div>
+        <ul class="menu">
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html" class="active" >SIGN UP FOR FREE</a></li>
+        </ul>
+  </header>
+  <main>
+    <h1>Cadastre-se agora!</h1>
+    <form
+        action="https://jkorpela.fi/cgi-bin/echo.cgi"
+        class="forms"    
+    >
+        <div class="inputs">
+            <label for="nome">Nome </label>
+            <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="João da Silva Neto"
+            >
+        </div>
+        <div class="inputs">
+            <label for="email">E-mail </label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="joao@examplemail.com"
+            >
+        </div>
+        <div class="inputs">
+            <label for="password">Password </label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="min. 6 digitos"
+            >
+        </div>
+        <div class="inputs">
+            <label for="password-confirm">Confirme o password </label>
+            <input
+                type="password"
+                id="password-confirm"
+                name="password-confirm"
+                placeholder="Confirme o password"
+            >
+        </div>
+        <div class="inputs">
+            <label for="estado">Escolha seu estado</label>
+            <select id="estado" name="estado" required>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="PR">PR</option>
+            </select>
+        </div>
+        <div class="form-buttons">
+            <button type="reset">Limpar</button>
+            <button type="submit" class="cadastrar">Cadastrar</button>
+        </div>
+    </form>
+  </main>
+</body>
+</html>
